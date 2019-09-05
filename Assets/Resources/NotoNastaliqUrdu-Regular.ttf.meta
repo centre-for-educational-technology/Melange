@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 065a5cbfda3684af9b8d5d7dafacc5f3
+timeCreated: 1526378931
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Noto Nastaliq Urdu
+  fontNames:
+  - Noto Nastaliq Urdu
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
