@@ -1,0 +1,5597 @@
+{
+  "Language": "en-GB",
+  "Title": "Games",
+  "Version": "1.5.1.0",
+  "Author": "",
+  "Description": "Project configured for game development.",
+  "UserScript": null,
+  "Assets": {
+    "Actors": [
+      {
+        "Fields": {
+          "Name": "Mali",
+          "Pictures": "[Mali Khan.jpg]",
+          "Description": "",
+          "IsPlayer": "True",
+          "Age": "19",
+          "Gender": "Male",
+          "Rank": "",
+          "Faction": "",
+          "Class": "",
+          "Subclass": "",
+          "Ability": "",
+          "Primary Race": "",
+          "Secondary Race": "",
+          "Hometown": "Oxford",
+          "Texture Files": "[]",
+          "Model Files": "[]"
+        },
+        "ID": 1
+      },
+      {
+        "Fields": {
+          "Name": "Matthew",
+          "Pictures": "[Matthew Turner.png]",
+          "Description": "He is a friend from school, same age as Mali. Into music but not musician himself. Has gone away to uni, but is still in touch with Mali. He’s not big on technology. Will send messages, but likes to talk on the phone. Matthew, a friend from school, same age as Mali. Into music but not musician himself. Has gone away to uni, but is still in touch with Mali. He’s not big on technology. Will send messages, but likes to talk on the phone. Matthew, a friend from school, same age as Mali. Into music but not musician himself. Has gone away to uni, but is still in touch with Mali. He’s not big on technology. Will send messages, but likes to talk on the phone. Tall, blond hair, freckles. Healthy-looking. Big smile and red lips. Usually wears shirts and jeans. A bit preppy.",
+          "IsPlayer": "False",
+          "Age": "19",
+          "Gender": "Male",
+          "Rank": "",
+          "Faction": "",
+          "Class": "",
+          "Subclass": "",
+          "Ability": "",
+          "Primary Race": "",
+          "Secondary Race": "",
+          "Hometown": "Oxford",
+          "Texture Files": "[]",
+          "Model Files": "[]"
+        },
+        "ID": 2
+      },
+      {
+        "Fields": {
+          "Name": "Dada",
+          "Pictures": "[Tariq Khan.png]",
+          "Description": "Name: Tariq; elderly man; Mali’s grandfather. Retired doctor, recruited by the UK to work in the NHS in 1970; now comfortably retired. Grey hair and beard. Has a bit of a belly, but is quite slim otherwise. Always wears trousers, shirt and jumper. If it’s warm, he wears a tank top over his shirt instead of a jumper. Native Urdu speaker, he also encourages Mali to speak it.",
+          "IsPlayer": "False",
+          "Age": "73",
+          "Gender": "Male",
+          "Rank": "",
+          "Faction": "",
+          "Class": "",
+          "Subclass": "",
+          "Ability": "",
+          "Primary Race": "",
+          "Secondary Race": "",
+          "Hometown": "",
+          "Texture Files": "[]",
+          "Model Files": "[]"
+        },
+        "ID": 3
+      },
+      {
+        "Fields": {
+          "Name": "Mum",
+          "Pictures": "[Mum Khan.png]",
+          "Description": "Mali's Mum",
+          "IsPlayer": "False",
+          "Age": "0",
+          "Gender": "Female",
+          "Rank": "",
+          "Faction": "",
+          "Class": "",
+          "Subclass": "",
+          "Ability": "",
+          "Primary Race": "",
+          "Secondary Race": "",
+          "Hometown": "",
+          "Texture Files": "[]",
+          "Model Files": "[]"
+        },
+        "ID": 4
+      },
+      {
+        "Fields": {
+          "Name": "Dad",
+          "Pictures": "[Dad Kahn.png]",
+          "Description": "Mali's Dad",
+          "IsPlayer": "False",
+          "Age": "0",
+          "Gender": "Male",
+          "Rank": "",
+          "Faction": "",
+          "Class": "",
+          "Subclass": "",
+          "Ability": "",
+          "Primary Race": "",
+          "Secondary Race": "",
+          "Hometown": "",
+          "Texture Files": "[]",
+          "Model Files": "[]"
+        },
+        "ID": 5
+      }
+    ],
+    "Items": [
+      {
+        "Fields": {
+          "Name": "New Item",
+          "Pictures": "[]",
+          "Description": "",
+          "Purpose": "",
+          "Primary Location": "-1",
+          "Effect": "",
+          "Associated With": "-1",
+          "Combines With": "-1",
+          "Condition": "",
+          "Texture Files": "[]",
+          "Model Files": "[]"
+        },
+        "ID": 1
+      }
+    ],
+    "Locations": [
+      {
+        "Fields": {
+          "Name": "New Location",
+          "Pictures": "[]",
+          "Description": "",
+          "Act": "",
+          "Chapter": "",
+          "Scene": "",
+          "Level": "",
+          "Purpose": "",
+          "Climate": "",
+          "Mood": "",
+          "Texture Files": "[]",
+          "Model Files": "[]"
+        },
+        "ID": 1
+      }
+    ],
+    "Conversations": [
+      {
+        "ID": 1,
+        "DialogNodes": [
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 0,
+                "DestinationDialogID": 1
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": true,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "START",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Animation Files": "[]"
+            },
+            "ID": 0
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 1,
+                "DestinationDialogID": 2
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 1,
+                "DestinationDialogID": 3
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 1,
+                "DestinationDialogID": 4
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Hello",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "2",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Hello?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 1
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 2,
+                "DestinationDialogID": 5
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Hi. How’re ya doing? ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "Hi. How’re ya doing? I’ve just seen that contest thing you sent me! How cool is that?!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 2
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 3,
+                "DestinationDialogID": 10
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Hello. Thanks for the information",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "Hello. Thanks for the information. It looks interesting!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 3
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 4,
+                "DestinationDialogID": 14
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’m going to do it!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "I’m going to do it! I HAVE to do it!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Very Enthuisiastic"
+            },
+            "ID": 4
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 5,
+                "DestinationDialogID": 7
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 5,
+                "DestinationDialogID": 6
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 5,
+                "DestinationDialogID": 8
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Yeah, you should enter. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "2",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Yeah, you should enter. With your old band! I really think you could win! You were great!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 5
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 6,
+                "DestinationDialogID": 9
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Do you reckon? ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "Do you reckon? I'd love to… But…",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 6
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 7,
+                "DestinationDialogID": 9
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Yeah, it’d be cool!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "Yeah, it’d be cool! But…",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 7
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 8,
+                "DestinationDialogID": 9
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Yeah, we were! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "Yeah, we were! But…",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 8
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 9,
+                "DestinationDialogID": 23
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 9,
+                "DestinationDialogID": 22
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 9,
+                "DestinationDialogID": 24
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "But what?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "2",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "But what?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 9
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 10,
+                "DestinationDialogID": 11
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 10,
+                "DestinationDialogID": 12
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 10,
+                "DestinationDialogID": 13
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "INTERESTING?!?!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "2",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "INTERESTING?!?! It looks BRILLIANT!!! Come on, Mali, be enthusiastic!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 10
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 11,
+                "DestinationDialogID": 9
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Yeah, you’re right…",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "Yeah, you’re right… It could be good… But…",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 11
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 12,
+                "DestinationDialogID": 9
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I am! But…",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "I am! But…",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 12
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 13,
+                "DestinationDialogID": 9
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’m trying to be. But…",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "I’m trying to be. But…",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 13
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 14,
+                "DestinationDialogID": 15
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 14,
+                "DestinationDialogID": 16
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 14,
+                "DestinationDialogID": 17
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Hello?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "2",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Hello? ",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "confused"
+            },
+            "ID": 14
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 15,
+                "DestinationDialogID": 18
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "It’s me! Mali!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "It’s me! Mali! I’m going to do it! I’m going to enter!!!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 15
+          },
+          {
+            "OutgoingLinks": [],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "It’s Mali! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "It’s Mali! I HAVE to take part in this contest! It’ll be GREAT!!!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 16
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 17,
+                "DestinationDialogID": 18
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Hi!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "Hi! This looks GREAT! It’s MADE FOR ME!!! ",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 17
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 18,
+                "DestinationDialogID": 19
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 18,
+                "DestinationDialogID": 20
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 18,
+                "DestinationDialogID": 21
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Calm down! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "2",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Calm down! Hello! How are you?!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Laughing"
+            },
+            "ID": 18
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 19,
+                "DestinationDialogID": 5
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Sorry! Hi. I’m fine. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "Sorry! Hi. I’m fine. You? I have to get the old band together again! I have to enter this contest!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Laughing"
+            },
+            "ID": 19
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 20,
+                "DestinationDialogID": 5
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Sorry! I’m so excited! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "Sorry! I’m so excited! How are you? I really want to do this contest!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 20
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 21,
+                "DestinationDialogID": 5
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Sorry! I’m too enthusiastic! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "Sorry! I’m too enthusiastic! How are you? This contest looks like it could be a great opportunity!  ",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 21
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 22,
+                "DestinationDialogID": 25
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "But the band separated two years ago. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "But the band separated two years ago. We haven’t seen each other since then.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 22
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 23,
+                "DestinationDialogID": 25
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "But we haven’t played together for ages! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "But we haven’t played together for ages! We haven’t seen each other for two years!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 23
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 24,
+                "DestinationDialogID": 25
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "But we split up two years ago!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "But we split up two years ago! I haven’t seen the rest of them since then!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 24
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 25,
+                "DestinationDialogID": 27
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 25,
+                "DestinationDialogID": 28
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 25,
+                "DestinationDialogID": 26
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Well, can’t you get back together?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "2",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Well, can’t you get back together?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 25
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 26,
+                "DestinationDialogID": 29
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I don’t even know where they are exactly! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "I don’t even know where they are exactly! I wish we’d stayed in touch…",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 26
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 27,
+                "DestinationDialogID": 29
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’d love to, but...",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "I’d love to, but I don’t even know where they are now!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 27
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 28,
+                "DestinationDialogID": 29
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "It wouldn’t be easy.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "It wouldn’t be easy. I don’t know where they're living now.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 28
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 29,
+                "DestinationDialogID": 30
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 29,
+                "DestinationDialogID": 31
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 29,
+                "DestinationDialogID": 32
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 29,
+                "DestinationDialogID": 38
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": true,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 1,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Band Photo",
+              "Pictures": "[]",
+              "Description": "CUT TO PHOTO OF BAND- CAN PLAYER CHOOSE IN WHICH ORDER HE TALKS ABOUT THEM? HE HAS TO CLICK ON ALL OF THEM BEFORE CONTINUING TO 32.",
+              "Actor": "1",
+              "Conversant": "2"
+            },
+            "ID": 29
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 30,
+                "DestinationDialogID": 29
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "Dialog[30].SimStatus ~= \"WasDisplayed\"",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Marie’s such a good drummer",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "[f]Marie’s such a good drummer",
+              "Dialogue Text": "Marie’s such a good drummer. She was in Frankfurt, working in a coffee shop. She had a blog… About restaurants? Or cake shops? Or coffee? Or something… I wonder if I could find her!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 30
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 31,
+                "DestinationDialogID": 29
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "Dialog[31].SimStatus ~= \"WasDisplayed\"",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Nikki’s a brilliant bass player!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "[f]Nikki’s a brilliant bass player! ",
+              "Dialogue Text": "Nikki’s a brilliant bass player! And so wild! I know she was working, in that art museum in Luxembourg, MUDAM… but she could be anywhere now!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 31
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 32,
+                "DestinationDialogID": 29
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "Dialog[32].SimStatus ~= \"WasDisplayed\"",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Toni’s the BEST lead guitar! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "[f]Toni’s the BEST lead guitar!",
+              "Dialogue Text": "Toni’s the BEST lead guitar! He wants to be a pro, and I bet he makes it! He’s Spanish… from the Costa Brava… Canet?… en Mar? Canet… DE Mar!!! I remember his dad had a fruit and vegetable stall in the market there. But Toni was going to do music at university. I don’t know where he lives now. ",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 32
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 33,
+                "DestinationDialogID": 34
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 33,
+                "DestinationDialogID": 35
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 33,
+                "DestinationDialogID": 36
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "So what are you going to do?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "2",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "So what are you going to do?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 33
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 34,
+                "DestinationDialogID": 37
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I have to go to Europe",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "I have to go to Europe to find them! Thanks for telling me about the contest! Bye!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "decisive"
+            },
+            "ID": 34
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 35,
+                "DestinationDialogID": 37
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I think the only option I have is going to Europe",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "I think the only option I have is going to Europe to look for them. Thanks for sending me the info about the contest! Bye!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "decisive"
+            },
+            "ID": 35
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 36,
+                "DestinationDialogID": 37
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "New Dialogue",
+              "Pictures": "[]",
+              "Description": "I’ve got to enter this contest!",
+              "Actor": "1",
+              "Conversant": "2",
+              "Menu Text": "",
+              "Dialogue Text": "I’ve got to enter this contest! I’m going to look for them, all over Europe if I have to! Thanks for the info about the contest! Bye!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "decisive"
+            },
+            "ID": 36
+          },
+          {
+            "OutgoingLinks": [],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "You’re welcome! Good luck! See ya!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "2",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "You’re welcome! Good luck! See ya!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 37
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 1,
+                "DestinationConvoID": 1,
+                "OriginDialogID": 38,
+                "DestinationDialogID": 33
+              }
+            ],
+            "ConversationID": 1,
+            "IsRoot": false,
+            "IsGroup": true,
+            "ConditionsString": "Dialog[30].SimStatus == \"WasDisplayed\"\r\nand Dialog[31].SimStatus == \"WasDisplayed\"\r\nand Dialog[32].SimStatus == \"WasDisplayed\"",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "New Group",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "2"
+            },
+            "ID": 38
+          }
+        ],
+        "NodeColor": 0,
+        "Fields": {
+          "Title": "#01_CheckOutThisContest",
+          "Pictures": "[]",
+          "Description": "",
+          "Actor": "1",
+          "Conversant": "2",
+          "Act": "",
+          "Chapter": "1",
+          "Scene": "",
+          "Level": "",
+          "Mood": "",
+          "Primary Location": "-1"
+        }
+      },
+      {
+        "ID": 2,
+        "DialogNodes": [
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 0,
+                "DestinationDialogID": 1
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": true,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "START",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 0
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 1,
+                "DestinationDialogID": 3
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 1,
+                "DestinationDialogID": 2
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 1,
+                "DestinationDialogID": 4
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Hello?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "3",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Hello?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 1
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 2,
+                "DestinationDialogID": 5
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Hi, Dada! Can you...?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Hi, Dada! Can you lend me some money, please?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 2
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 3,
+                "DestinationDialogID": 15
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Hi Dada! How are...?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Hi Dada! It’s Mali. How are you?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 3
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 4,
+                "DestinationDialogID": 14
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Assalam-o-alaikum, Dada.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Assalam-o-alaikum, Dada. Kya Haal Haiy?*",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 4
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 5,
+                "DestinationDialogID": 7
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 5,
+                "DestinationDialogID": 8
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 5,
+                "DestinationDialogID": 6
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Hello, Mali. Can’t you...?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "3",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Hello, Mali. Can’t you say hello properly to your grandfather?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 5
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 6,
+                "DestinationDialogID": 10
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Sorry!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Sorry! Assalam-o-alaikum, Dada. Kya Haal Haiy?*",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 6
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 7,
+                "DestinationDialogID": 9
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Sorry, Dada! How are you?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Sorry, Dada! How are you?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 7
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 8,
+                "DestinationDialogID": 9
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Sorry, Dada. Are you well?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Sorry, Dada. Are you well?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 8
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 9,
+                "DestinationDialogID": 11
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 9,
+                "DestinationDialogID": 12
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 9,
+                "DestinationDialogID": 13
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Not too bad, not too bad",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "3",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Not too bad, not too bad, Pota.* How are you?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 9
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 10,
+                "DestinationDialogID": 11
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 10,
+                "DestinationDialogID": 12
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 10,
+                "DestinationDialogID": 13
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Wa'alaikum Salaam, Pota.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "3",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Wa'alaikum Salaam, Pota. Thik hai, Accha. Kya Haal Haiy?*",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 10
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 11,
+                "DestinationDialogID": 22
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Well, I’m really excited, actually. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Well, I’m really excited, actually. There’s this music contest in a few months that looks really cool, and I want to enter with my old band. I was wondering if you would be able to lend me some money.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 11
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 12,
+                "DestinationDialogID": 16
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Fine, thanks! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Fine, thanks! Dada, please can you lend me some money?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 12
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 13,
+                "DestinationDialogID": 22
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Actually, I’ve got a little problem. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Actually, I’ve got a little problem. I really want to enter a music contest in Europe, and I don’t have enough money. Would you be able to lend me some, Dada, please?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 13
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 14,
+                "DestinationDialogID": 11
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 14,
+                "DestinationDialogID": 12
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 14,
+                "DestinationDialogID": 13
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Wa'alaikum Salaam, Pota. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "3",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Wa'alaikum Salaam, Pota. Thik hai, Accha. Kya Haal Haiy?* ",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 14
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 15,
+                "DestinationDialogID": 11
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 15,
+                "DestinationDialogID": 12
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 15,
+                "DestinationDialogID": 13
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Very well, thank you, young man. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "3",
+              "Conversant": "1",
+              "Menu Text": " ",
+              "Dialogue Text": "Very well, thank you, young man. And you?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 15
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 16,
+                "DestinationDialogID": 17
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 16,
+                "DestinationDialogID": 18
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 16,
+                "DestinationDialogID": 19
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Money? Why do you need money?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "3",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Money? Why do you need money?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 16
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 17,
+                "DestinationDialogID": 22
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Well, there’s this music contest",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Well, there’s this music contest I want to enter with my old band. I have to go to Europe, and I haven’t got enough money. ",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 17
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 18,
+                "DestinationDialogID": 20
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I have to go to Europe.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "I have to go to Europe.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 18
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 19,
+                "DestinationDialogID": 22
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Do you remember my old band? ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Do you remember my old band? Well, I want to find everyone again to enter a music contest. I have to go to Europe to find them.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 19
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 20,
+                "DestinationDialogID": 21
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "You HAVE to go to EUROPE?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "3",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "You HAVE to go to EUROPE? What are you talking about?!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 20
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 21,
+                "DestinationDialogID": 22
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "There’s a music contest ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "There’s a music contest I want to enter with my old band. I have to go and find them all.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 21
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 22,
+                "DestinationDialogID": 23
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 22,
+                "DestinationDialogID": 25
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 22,
+                "DestinationDialogID": 24
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 22,
+                "DestinationDialogID": 26
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "A music contest, you say? ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "3",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "A music contest, you say? And have you tried to earn some money yourself? Or are you just asking me to give it all to you?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 22
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 23,
+                "DestinationDialogID": 27
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’m selling some things",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "I’m selling some things, and I’ve done some work in the neighbour’s garden.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 23
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 24,
+                "DestinationDialogID": 31
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’ve done some work in the neighbour’s garden",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "I’ve done some work in the neighbour’s garden, and I want to sell some things.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 24
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 25,
+                "DestinationDialogID": 31
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’m selling some things, and I...",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "I’m selling some things, and I want to do some work in the neighbour’s garden.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 25
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 26,
+                "DestinationDialogID": 32
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I want to sell some things, and do...",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "I want to sell some things, and do some work in the neighbour’s garden.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 26
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 27,
+                "DestinationDialogID": 28
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 27,
+                "DestinationDialogID": 29
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 27,
+                "DestinationDialogID": 30
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Good boy! I can lend you some money! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "3",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Good boy! I can lend you some money! But there’s a condition! You must play your song for your Dadi* and me before you go!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 27
+          },
+          {
+            "OutgoingLinks": [],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Alright, Dada!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Alright, Dada! You’ve got a deal! Thanks a lot!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 28
+          },
+          {
+            "OutgoingLinks": [],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Thanks, Dada! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "Thanks, Dada! I will!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 29
+          },
+          {
+            "OutgoingLinks": [],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’ll do that, Dada. Thanks a lot!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "3",
+              "Menu Text": "",
+              "Dialogue Text": "I’ll do that, Dada. Thanks a lot!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 30
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 31,
+                "DestinationDialogID": 28
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 31,
+                "DestinationDialogID": 29
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 31,
+                "DestinationDialogID": 30
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "OK, that’s a good start! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "3",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "OK, that’s a good start! Well, when you have done everything, come to me, and I will lend you some money for your project!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 31
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 32,
+                "DestinationDialogID": 28
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 32,
+                "DestinationDialogID": 29
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 2,
+                "DestinationConvoID": 2,
+                "OriginDialogID": 32,
+                "DestinationDialogID": 30
+              }
+            ],
+            "ConversationID": 2,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Well, it’s good to have plans! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "3",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Well, it’s good to have plans! Come to me when you have tried everything, and I will lend you some money for your project!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 32
+          }
+        ],
+        "NodeColor": 0,
+        "Fields": {
+          "Title": "#03_BorrowingMoneyFromDada",
+          "Pictures": "[]",
+          "Description": "",
+          "Actor": "1",
+          "Conversant": "3",
+          "Act": "",
+          "Chapter": "3",
+          "Scene": "",
+          "Level": "",
+          "Mood": "",
+          "Primary Location": "-1"
+        }
+      },
+      {
+        "ID": 3,
+        "DialogNodes": [
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 0,
+                "DestinationDialogID": 1
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 0,
+                "DestinationDialogID": 6
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": true,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "START",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 0
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 1,
+                "DestinationDialogID": 2
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Mum, Dad, I’m going to Europe!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "Mum, Dad, I’m going to Europe!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Excited"
+            },
+            "ID": 1
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 2,
+                "DestinationDialogID": 5
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 2,
+                "DestinationDialogID": 3
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 2,
+                "DestinationDialogID": 4
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "What????!!!!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "4",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "What????!!!!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 2
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 3,
+                "DestinationDialogID": 7
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Yeah, I’ve got to go and find...",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "Yeah, I’ve got to go and find all my old band members! You know, the foreign ones!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Excited"
+            },
+            "ID": 3
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 4,
+                "DestinationDialogID": 14
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "There’s this music contest ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "There’s this music contest in Estonia, and I have to find the old band members!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Excited"
+            },
+            "ID": 4
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 5,
+                "DestinationDialogID": 18
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "You heard me! I’m going to Europe!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "You heard me! I’m going to Europe!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Excited"
+            },
+            "ID": 5
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 6,
+                "DestinationDialogID": 19
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Mum, Dad, I need to go to Europe!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "Mum, Dad, I need to go to Europe!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Hopeful, positive"
+            },
+            "ID": 6
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 7,
+                "DestinationDialogID": 8
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 7,
+                "DestinationDialogID": 9
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 7,
+                "DestinationDialogID": 10
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Don’t be ridiculous! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "5",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Don’t be ridiculous! Just phone them!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 7
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 8,
+                "DestinationDialogID": 11
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I haven’t got their numbers!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "I haven’t got their numbers!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 8
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 9,
+                "DestinationDialogID": 57
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’ve lost touch with them.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "I’ve lost touch with them. I can’t find them on Facebook or anything!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 9
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 10,
+                "DestinationDialogID": 47
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I told you I have to go",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "I told you I have to go and find them. Do you think I’d go if I had their telephone numbers?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Rude"
+            },
+            "ID": 10
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 11,
+                "DestinationDialogID": 12
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 11,
+                "DestinationDialogID": 56
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 11,
+                "DestinationDialogID": 13
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "What about Facebook? ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "5",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "What about Facebook? ",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 11
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 12,
+                "DestinationDialogID": 57
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’ve tried. No good.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "I’ve tried. No good.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 12
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 13,
+                "DestinationDialogID": 46
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Facebook isn’t the answer to everything",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "Facebook isn’t the answer to everything, you know.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 13
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 14,
+                "DestinationDialogID": 16
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 14,
+                "DestinationDialogID": 17
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 14,
+                "DestinationDialogID": 15
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "That would be wonderful! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "4",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "That would be wonderful! But can’t you phone them, or mail them, or… something?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 14
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 15,
+                "DestinationDialogID": 20
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’ve totally lost touch with them.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "I’ve totally lost touch with them.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Despondent"
+            },
+            "ID": 15
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 16,
+                "DestinationDialogID": 20
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I haven’t got any contact details for them.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "I haven’t got any contact details for them.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Despondent"
+            },
+            "ID": 16
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 17,
+                "DestinationDialogID": 20
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "No, I can’t find them anywhere.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "No, I can’t find them anywhere.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Despondent"
+            },
+            "ID": 17
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 18,
+                "DestinationDialogID": 4
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "What do you mean?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "5",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "What do you mean, you’re going to Europe?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 18
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 19,
+                "DestinationDialogID": 3
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 19,
+                "DestinationDialogID": 4
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 19,
+                "DestinationDialogID": 5
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "You NEED to go to Europe?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "4",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "You NEED to go to Europe?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 19
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 20,
+                "DestinationDialogID": 22
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 20,
+                "DestinationDialogID": 21
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 20,
+                "DestinationDialogID": 23
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Haven’t you got any mutual friends?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "4",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Haven’t you got any mutual friends?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 20
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 21,
+                "DestinationDialogID": 24
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "No!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "No!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 21
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 22,
+                "DestinationDialogID": 24
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Not anymore!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "Not anymore!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 22
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 23,
+                "DestinationDialogID": 24
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "No. I deleted a lot of people...",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "No. I deleted a lot of people I never speak to.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 23
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 24,
+                "DestinationDialogID": 26
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 24,
+                "DestinationDialogID": 25
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 24,
+                "DestinationDialogID": 27
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "So you’re going to go to Europe...?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "5",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "So you’re going to go to Europe to look for them? You know Europe is quite big, don’t you???",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 24
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 25,
+                "DestinationDialogID": 28
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Dad, I’m not stupid!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "Dad, I’m not stupid! I know some things about them!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 25
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 26,
+                "DestinationDialogID": 28
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Well, I’ve some information...",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "Well, I’ve some information, like where they were living, where they were working, or where their parents worked…",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 26
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 27,
+                "DestinationDialogID": 28
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Yes, Dad. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "Yes, Dad. Thank you. I’ve got a plan.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 27
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 28,
+                "DestinationDialogID": 30
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 28,
+                "DestinationDialogID": 29
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 28,
+                "DestinationDialogID": 31
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "And how are you going to pay?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "5",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "And how are you going to pay for this trip to Europe? It isn’t cheap! ",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 28
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 29,
+                "DestinationDialogID": 32
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Well, I’ve got some money saved. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "Well, I’ve got some money saved. And I was wondering if… Could I have some money for my birthday, please???!!!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 29
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 30,
+                "DestinationDialogID": 32
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’ve got some money.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "I’ve got some money. From different things! And, could you give me some money? Maybe for my birthday? Dada said he’d help!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 30
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 31,
+                "DestinationDialogID": 32
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Yeah, that’s all OK.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "Yeah, that’s all OK. I’ve got some money, from some work I did… From selling my bike… From Dada…",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 31
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 32,
+                "DestinationDialogID": 34
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 32,
+                "DestinationDialogID": 33
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 32,
+                "DestinationDialogID": 35
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "But...",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "4",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "But the money you had saved was for university, wasn’t it? It seems silly to spend it on a holiday!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 32
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 33,
+                "DestinationDialogID": 36
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Oh, mum! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "Oh, mum! I’m not sure I want to go to uni. You know that! This music contest is more important for me now!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 33
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 34,
+                "DestinationDialogID": 36
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Well, if I go to uni, I can...",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "Well, if I go to uni, I can earn some more money. I want to concentrate on my singing now. And this contest is a great opportunity!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 34
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 35,
+                "DestinationDialogID": 36
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "It’s not a holiday!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "It’s not a holiday! My music is my priority now. This contest could be my big chance!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 35
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 36,
+                "DestinationDialogID": 38
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 36,
+                "DestinationDialogID": 37
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 36,
+                "DestinationDialogID": 39
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I think...",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "5",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "I think you’re making a big mistake.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 36
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 37,
+                "DestinationDialogID": 40
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Dad, please!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "Dad, please! I’m good! I really want to do it!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 37
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 38,
+                "DestinationDialogID": 40
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Dad, you have to support me ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "Dad, you have to support me in this. Even if you don’t give me any money. I want to sing!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 38
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 39,
+                "DestinationDialogID": 40
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "It’s not a mistake.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "It’s not a mistake. It’s what I want to do.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 39
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 40,
+                "DestinationDialogID": 41
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 40,
+                "DestinationDialogID": 42
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 40,
+                "DestinationDialogID": 43
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Mali, it’s your future. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "4",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Mali, it’s your future. You can have your birthday money, and you can spend it how you want. But when you come back, THINK ABOUT UNIVERSITY, OK?!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 40
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 41,
+                "DestinationDialogID": 44
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "OK, Mum. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "OK, Mum. I’ll think about it. But no promises, OK?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 41
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 42,
+                "DestinationDialogID": 44
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Thanks, Mum! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "Thanks, Mum! You’re the best!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 42
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 43,
+                "DestinationDialogID": 45
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I don’t want to go to university!!! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": " ",
+              "Dialogue Text": "I don’t want to go to university!!! I’m going to be a singer! ",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 43
+          },
+          {
+            "OutgoingLinks": [],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Be careful, won’t you?!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "4",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Be careful, won’t you?!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 44
+          },
+          {
+            "OutgoingLinks": [],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "And does that get you money in the bank?!?!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "5",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "And does that get you money in the bank?!?!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 45
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 46,
+                "DestinationDialogID": 53
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 46,
+                "DestinationDialogID": 54
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 46,
+                "DestinationDialogID": 55
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Mali, there’s no need to be rude. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "4",
+              "Conversant": "1",
+              "Menu Text": " ",
+              "Dialogue Text": "Mali, there’s no need to be rude. Haven’t you got any mutual friends?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 46
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 47,
+                "DestinationDialogID": 48
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 47,
+                "DestinationDialogID": 50
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 47,
+                "DestinationDialogID": 49
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Don’t speak to me like that, Mali. ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "5",
+              "Conversant": "1",
+              "Menu Text": " ",
+              "Dialogue Text": "Don’t speak to me like that, Mali. I’m trying to have a conversation with you.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 47
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 48,
+                "DestinationDialogID": 52
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Sorry, Dad.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "Sorry, Dad. The thing is, I‘ve lost touch with them. I can’t find them on Facebook or anything.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 48
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 49,
+                "DestinationDialogID": 51
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’m not stupid! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "I’m not stupid! I’d phone them if I had their numbers. But I’ve completely lost touch with them!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Starts rude, then eases off"
+            },
+            "ID": 49
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 50,
+                "DestinationDialogID": 52
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "But DAD!!! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "But DAD!!! OK… I haven’t got any contact details for them. I have to go and find them.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 50
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 51,
+                "DestinationDialogID": 52
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Mali, if you carry on...",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "5",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Mali, if you carry on like that, you won’t be going out for the rest of the week. And no chance of going to Europe.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Losing patience"
+            },
+            "ID": 51
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 52,
+                "DestinationDialogID": 58
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 52,
+                "DestinationDialogID": 59
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 52,
+                "DestinationDialogID": 60
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "But what do you need to...?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "4",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "But what do you need to speak to them about? Why is it so important?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 52
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 53,
+                "DestinationDialogID": 52
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "No!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "No!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Desperate"
+            },
+            "ID": 53
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 54,
+                "DestinationDialogID": 52
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Not anymore!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "Not anymore!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Despondent"
+            },
+            "ID": 54
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 55,
+                "DestinationDialogID": 52
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "No. I deleted a lot of people...",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "No. I deleted a lot of people I never speak to.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": "Despondent"
+            },
+            "ID": 55
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 56,
+                "DestinationDialogID": 57
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’ve lost touch with them.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "5",
+              "Menu Text": "",
+              "Dialogue Text": "I’ve lost touch with them. I can’t find them on Facebook or anything!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 56
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 57,
+                "DestinationDialogID": 53
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 57,
+                "DestinationDialogID": 54
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 57,
+                "DestinationDialogID": 55
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Haven’t you got any mutual friends?",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "4",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Haven’t you got any mutual friends?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 57
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 58,
+                "DestinationDialogID": 61
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "There’s a music contest in Estonia",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "There’s a music contest in Estonia. I need to find the band members to enter.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 58
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 59,
+                "DestinationDialogID": 61
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I want to get the band together again ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "I want to get the band together again to enter a music contest.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 59
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 60,
+                "DestinationDialogID": 61
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I need to tell them about a European music contest.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "I need to tell them about a European music contest. I want the band to enter.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 60
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 61,
+                "DestinationDialogID": 62
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 61,
+                "DestinationDialogID": 63
+              },
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 61,
+                "DestinationDialogID": 64
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "Wow, that sounds great! ",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "4",
+              "Conversant": "1",
+              "Menu Text": "",
+              "Dialogue Text": "Wow, that sounds great! But it would cost you a fortune to go and look for them! Are you sure you can’t get in touch any other way?",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 61
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 62,
+                "DestinationDialogID": 28
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "MUM!!!!! NOOOOOOO!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "MUM!!!!! NOOOOOOO!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 62
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 63,
+                "DestinationDialogID": 28
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I’m sure!",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "I’m sure!",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 63
+          },
+          {
+            "OutgoingLinks": [
+              {
+                "Filename": null,
+                "OriginConvoID": 3,
+                "DestinationConvoID": 3,
+                "OriginDialogID": 64,
+                "DestinationDialogID": 28
+              }
+            ],
+            "ConversationID": 3,
+            "IsRoot": false,
+            "IsGroup": false,
+            "ConditionsString": "",
+            "UserScript": "",
+            "NodeColor": 8,
+            "DelaySimStatus": false,
+            "FalseConditionAction": 0,
+            "ConditionPriority": 3,
+            "Fields": {
+              "Title": "I really need to go and find them.",
+              "Pictures": "[]",
+              "Description": "",
+              "Actor": "1",
+              "Conversant": "4",
+              "Menu Text": "",
+              "Dialogue Text": "I really need to go and find them.",
+              "Parenthetical": "",
+              "Audio Files": "[]",
+              "Video File": "",
+              "Lipsync Files": "[]",
+              "Animation Files": "[]",
+              "Mood": ""
+            },
+            "ID": 64
+          }
+        ],
+        "NodeColor": 0,
+        "Fields": {
+          "Title": "#5_MumIveGotToGoToEurope",
+          "Pictures": "[]",
+          "Description": "",
+          "Actor": "1",
+          "Conversant": "4",
+          "Act": "",
+          "Chapter": "5",
+          "Scene": "",
+          "Level": "",
+          "Mood": "",
+          "Primary Location": "-1"
+        }
+      }
+    ],
+    "UserVariables": []
+  }
+}

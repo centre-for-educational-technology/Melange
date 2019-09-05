@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 316d51aa87a73457eb46cfe2c058795b
+timeCreated: 1480508763
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - CCDaveGibbons
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0cefbee16f8e04a41ac150fa621abb60, type: 3}
+  - {fileID: 12800000, guid: 3118e2f3b4c11418ab7db98e4c7a5590, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
